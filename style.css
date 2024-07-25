@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  color: #45525b;
+}
+
+.logo {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 5px;
+}
+header {
+  padding: 0px 136px;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: grid;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  column-gap: 300px;
+}
+main {
+  height: 800px;
+  background: url(./61127627883dbb0802b613e3_Hero\ Background\ 1.png);
+  background-size: cover;
+  display: grid;
+  grid-auto-flow: row;
+  justify-items: center;
+  align-content: center;
+  position: relative;
+  z-index: 0;
+}
+.cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: rgba(179, 177, 177, 0.6);
+}
+.content {
+  background-color: #fafafc;
+  padding: 99px 136px;
+  display: grid;
+  grid-auto-flow: column;
+}
+.goal {
+  display: grid;
+  align-content: center;
+}
+h2 {
+  margin: 0;
+  font-size: 48px;
+  color: #45525b;
+}
+
+.content span {
+  color: red;
+}
+
+.requirements {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 100px 136px;
+}
+.requirements h3 {
+  font-size: 38px;
+  margin: 0;
+}
+.head span {
+  color: red;
+  justify-content: center;
+}
+.head p {
+  margin-top: 10px;
+  font-size: 18px;
+  width: 450px;
+  text-align: center;
+}
+.review {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 32px;
+  align-items: center;
+}
+.city {
+  margin-top: 20px;
+  max-width: 480px;
+}
+.review h4,
+p {
+  margin: 0;
+}
+.review p {
+  width: 250px;
+}
+.view img {
+  margin-top: 80px;
+}
+.view {
+  gap: 20px;
+}
+
+.image {
+  background: url(./Background.png);
+  height: 600px;
+}
+
+.team {
+  padding: 100px 136px;
+  display: grid;
+  grid-auto-flow: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.team h2 {
+  width: 400px;
+}
+.team p {
+  width: 400px;
+}
+
+.agents {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(3, 1fr);
+}
+.agent {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+.agent img {
+  grid-area: 1/1/3/2;
+}
